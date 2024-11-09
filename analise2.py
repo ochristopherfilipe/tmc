@@ -283,40 +283,6 @@ elif pagina_selecionada == "Relacionamentos Românticos":
 elif pagina_selecionada == "Análise de Engajamento e Desempenho":
     st.title("Análise de Engajamento e Desempenho")
 
-    st.markdown("### **Distribuição Geral dos Níveis de Engajamento:**")
-
-    # Usando os dados fornecidos
-    data_engajamento = {
-        'Nível de Engajamento': ['Alto Engajamento', 'Engajamento Moderado', 'Baixo Engajamento', 'Não responderam'],
-        'Quantidade de Membros': [20, 10, 5, 22]
-    }
-    df_engajamento = pd.DataFrame(data_engajamento)
-    st.table(df_engajamento)
-
-    st.markdown("### **Quantificação das Categorias:**")
-
-    # Usando os dados fornecidos
-    data_categorias = {
-        'Categoria': [
-            'Melhoria de Relacionamentos e Unidade',
-            'Treinamento e Desenvolvimento',
-            'Melhorias Organizacionais',
-            'Recrutamento e Engajamento',
-            'Recursos e Equipamentos',
-            'Práticas Espirituais',
-            'Comunicação e Feedback'
-        ],
-        'Quantidade de Membros que Mencionaram': [12, 10, 8, 5, 6, 7, 9]
-    }
-    df_categorias = pd.DataFrame(data_categorias)
-    st.table(df_categorias)
-
-    st.markdown("---")
-
-    st.markdown("### **Recomendações Gerais**")
-    st.write("""
-1. **Análise de Engajamento e Desempenho**
-
 ### **Categorias de Engajamento:**
 
 Para facilitar a análise, categorizamos as respostas sobre engajamento e desempenho em três níveis:
