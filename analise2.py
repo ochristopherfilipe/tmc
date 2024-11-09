@@ -282,6 +282,7 @@ elif pagina_selecionada == "Relacionamentos Românticos":
 
 elif pagina_selecionada == "Análise de Engajamento e Desempenho":
     st.title("Análise de Engajamento e Desempenho")
+    st.write("""
 
 ### **Categorias de Engajamento:**
 
